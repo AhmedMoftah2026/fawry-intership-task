@@ -46,7 +46,7 @@ public class Main {
         Product tv = new NontExpirProduct("TV", 5000, 3, 10000);
         Product scratchCard = new NontExpirProduct("Mobile Scratch Card", 50, 20, 0);
 
-        Customer customer = new Customer("John Doe", 10000);
+        Customer customer = new Customer("Ahmed Moftah", 10000);
         Cart cart = new Cart();
 
         cart.add(cheese, 2);
