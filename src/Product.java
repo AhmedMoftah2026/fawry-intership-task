@@ -42,7 +42,10 @@ abstract class Product {
         }
     }
 
+    //Check Is the product expired or not?
     public abstract boolean isExpired();
+    //the product need shipping?
     public abstract boolean requiresShipping();
-    public abstract double getWeight(); // 0 if not shippable
+    //Product weight if it needs shipping
+    public abstract double getWeight();
 }

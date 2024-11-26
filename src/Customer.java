@@ -20,7 +20,7 @@ public class Customer {
         if (balance >= amount) {
             balance -= amount;
         } else {
-            throw new IllegalArgumentException("Insufficient balance.");
+            throw new IllegalArgumentException("The balance is not enough");
         }
     }
 

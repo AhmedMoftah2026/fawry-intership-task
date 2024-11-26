@@ -1,5 +1,5 @@
 
-public class ExpirProduct extends Product{
+public class ExpirProduct extends Product implements ShippingItem{
     private boolean expired;
     private double weight;
 
@@ -24,4 +24,5 @@ public class ExpirProduct extends Product{
     public double getWeight() {
         return weight;
     }
+
 }
