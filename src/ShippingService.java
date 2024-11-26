@@ -3,7 +3,7 @@ import java.util.List;
 public class ShippingService {
     //method that Takes a list of shippable items as argument.
     public static void shipItems(List<ShippingItem> items) {
-        System.out.println("** Checkout Service notice **");
+        System.out.println("** Checkout of shipping items Service **");
         double totalWeight = 0;
         //All shippable items are passed
         //and Print item name and weight

@@ -36,7 +36,7 @@ public class Checkout {
         }
 
         //Print invoice
-        System.out.println("** Checkout Details **");
+        System.out.println("** Checkout Details Quantity And price **");
         //For each item in the cart, print:
         for (AddItemToCart item : cart.getItems()) {
                                 //Quantity                        //Product name.           //Total price (price x quantity).
