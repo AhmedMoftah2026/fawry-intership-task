@@ -1,6 +1,6 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 
-public class Main {
+public class Checkout {
     private static final double SHIPPING_COST_PER_KG = 30;
 
     public static void checkout(Customer customer, Cart cart) {
