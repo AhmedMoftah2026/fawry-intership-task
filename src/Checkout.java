@@ -44,9 +44,9 @@ public class Checkout {
         }
         System.out.println("----------------------");
         System.out.println("Cost without Shipping Service : " + subtotal);
-        System.out.println("Shipping Service cost: " + shippingCost);
-        System.out.println("Cost with Shipping Service: " + totalAmount);
-        System.out.println("Remaining balance: " + customer.getBalance() + "\n");
+        System.out.println("Shipping Service cost         : " + shippingCost);
+        System.out.println("Cost with Shipping Service    : " + totalAmount);
+        System.out.println("Remaining balance             : " + customer.getBalance() + "\n");
     }
 
     public static void main(String[] args) {

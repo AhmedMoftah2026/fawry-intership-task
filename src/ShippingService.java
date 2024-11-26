@@ -8,7 +8,7 @@ public class ShippingService {
         //All shippable items are passed
         //and Print item name and weight
         for (ShippingItem item : items) {
-            System.out.println(" - " + item.getName() + " " + item.getWeight() + "g");
+            System.out.println(" - " + item.getName() + ": " + item.getWeight() + "g");
             //The weight of each item is added up to totalWeight
             totalWeight += item.getWeight();
         }
